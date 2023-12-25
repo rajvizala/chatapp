@@ -1,7 +1,6 @@
 from email import message
 import json
-from turtle import pos
-# from urllib import request
+
 from channels.generic.websocket import WebsocketConsumer,AsyncWebsocketConsumer
 from asgiref.sync import async_to_sync
 import spacy
